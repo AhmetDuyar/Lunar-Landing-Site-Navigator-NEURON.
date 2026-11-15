@@ -1,0 +1,98 @@
+{
+  "generated_utc": "2026-11-14T08:43:09Z",
+  "nasa_regions": {
+    "lat_band": [-88.66, -82.86],
+    "n_inside": 3609,
+    "n_outside": 58175,
+    "median_inside": 41.7,
+    "median_outside": 34.4,
+    "share_inside_above_50": 28.5,
+    "share_outside_above_50": 15.2,
+    "auc": 0.6,
+    "wilcoxon_p": 1.53e-90,
+    "bins": [0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100],
+    "hist_inside": [1.83, 6.15, 8.01, 5.02, 4.27, 5.24, 7.84, 8.42, 11.5, 13.24, 7.26, 6.62, 6.32, 4.82, 2.41, 1, 0.06, 0, 0, 0],
+    "hist_outside": [5.94, 5.41, 7.89, 7.62, 7.3, 7.74, 9.18, 9.45, 11.69, 12.67, 8.19, 4.8, 1.17, 0.6, 0.3, 0.04, 0, 0, 0, 0],
+    "per_criterion": {
+      "flat_lt8": {
+        "inside": 12.5,
+        "outside": 50
+      },
+      "sun": {
+        "inside": 34.2,
+        "outside": 24.8
+      },
+      "earth": {
+        "inside": 59.9,
+        "outside": 22
+      }
+    },
+    "note": "Equal weights, slope limit 8 deg, ~1.5 km grid cells, same latitude band as the nine regions. NASA also used criteria we do not model (science value, mission design), so a perfect separation is not expected."
+  },
+  "consistency": {
+    "rows": [
+      {
+        "id": "CR",
+        "name": "Connecting Ridge",
+        "slope_mean_terrain": 9.33,
+        "slope_mean_dossier": 9.11,
+        "flat8_terrain": 44.2,
+        "flat8_dossier": 45.2,
+        "n_samples_terrain": 1961,
+        "n_pixels_dossier": 491,
+        "d_slope": -0.22,
+        "d_flat8": 1
+      },
+      {
+        "id": "HW",
+        "name": "Haworth",
+        "slope_mean_terrain": 5.09,
+        "slope_mean_dossier": 4.81,
+        "flat8_terrain": 75.3,
+        "flat8_dossier": 78.9,
+        "n_samples_terrain": 1961,
+        "n_pixels_dossier": 491,
+        "d_slope": -0.28,
+        "d_flat8": 3.6
+      },
+      {
+        "id": "NR1",
+        "name": "Nobile Rim 1",
+        "slope_mean_terrain": 9.65,
+        "slope_mean_dossier": 9.78,
+        "flat8_terrain": 35.5,
+        "flat8_dossier": 35,
+        "n_samples_terrain": 1961,
+        "n_pixels_dossier": 491,
+        "d_slope": 0.13,
+        "d_flat8": -0.5
+      },
+      {
+        "id": "NR2",
+        "name": "Nobile Rim 2",
+        "slope_mean_terrain": 8.38,
+        "slope_mean_dossier": 8.34,
+        "flat8_terrain": 42.7,
+        "flat8_dossier": 43.5,
+        "n_samples_terrain": 1961,
+        "n_pixels_dossier": 491,
+        "d_slope": -0.04,
+        "d_flat8": 0.8
+      },
+      {
+        "id": "MM",
+        "name": "Mons Mouton",
+        "slope_mean_terrain": 3.24,
+        "slope_mean_dossier": 3.31,
+        "flat8_terrain": 100,
+        "flat8_dossier": 100,
+        "n_samples_terrain": 1961,
+        "n_pixels_dossier": 491,
+        "d_slope": 0.07,
+        "d_flat8": 0
+      }
+    ],
+    "max_abs_d_slope": 0.28,
+    "max_abs_d_flat8": 3.6
+  }
+}

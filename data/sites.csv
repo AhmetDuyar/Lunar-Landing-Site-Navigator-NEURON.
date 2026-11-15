@@ -1,0 +1,6 @@
+id,name,region,region_status,lat,lon_e,coord_kind,coord_source,lit_illum_pct,lit_illum_definition,lit_illum_source
+CR,Connecting Ridge,Connecting Ridge,"NASA 2022 candidate region; not in Oct 2024 list of nine",-89.466667,223.333333,"Published landing-site point (89°28′S, 136°40′W)",koebel2012,85.7,"Integral solar illumination, Kaguya LALT DEM, 2016 epoch",koebel2012
+HW,Haworth,Haworth,"NASA Oct 2024 candidate region",-86.80555,338.23425,"Published landing-site point (highest Sun visibility in region)",ices2024,70.32,"Sun visibility fraction reported for this point",ices2024
+NR1,Nobile Rim 1,Nobile Rim 1,"NASA Oct 2024 candidate region",-85.54419,37.62660,"Published landing-site point",ices2024,,,
+NR2,Nobile Rim 2,Nobile Rim 2,"NASA Oct 2024 candidate region",-84.20156,60.69989,"Published optimum of TOPSIS ranking (1,247 points)",pena2025,,,
+MM,Mons Mouton,Mons Mouton,"NASA Oct 2024 candidate region; IM-2 landed here 2025-03-06",-84.7906,29.1957,"Measured landing position of IM-2 Athena (LROC)",lroc2025,,,

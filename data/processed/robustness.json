@@ -1,0 +1,2202 @@
+{
+  "generated_utc": "2026-11-14T08:43:04Z",
+  "regions": {
+    "scenarios": 40000,
+    "weights": "uniform on the simplex (Dirichlet 1,1,1)",
+    "slope_limits_deg": [5, 8, 10, 15],
+    "criteria": ["terrain: share below slope limit (LOLA 80 m)", "illumination: mean long-term Sun visibility (Mazarico 2011)", "earth: mean long-term Earth visibility (Mazarico 2011)"],
+    "table": [
+      {
+        "region": "Mons Mouton Plateau",
+        "p_rank1": 84.5,
+        "p_top3": 99.1,
+        "median_rank": 1,
+        "rank_p05": 1,
+        "rank_p95": 3,
+        "rank_equal_weights_8deg": 1
+      },
+      {
+        "region": "Malapert Massif",
+        "p_rank1": 0.5,
+        "p_top3": 48.9,
+        "median_rank": 4,
+        "rank_p05": 2,
+        "rank_p95": 7,
+        "rank_equal_weights_8deg": 7
+      },
+      {
+        "region": "Mons Mouton",
+        "p_rank1": 0,
+        "p_top3": 44.8,
+        "median_rank": 4,
+        "rank_p05": 2,
+        "rank_p95": 6,
+        "rank_equal_weights_8deg": 2
+      },
+      {
+        "region": "de Gerlache Rim 2",
+        "p_rank1": 0,
+        "p_top3": 30.5,
+        "median_rank": 4,
+        "rank_p05": 2,
+        "rank_p95": 6,
+        "rank_equal_weights_8deg": 5
+      },
+      {
+        "region": "Haworth",
+        "p_rank1": 0,
+        "p_top3": 28.7,
+        "median_rank": 5,
+        "rank_p05": 2,
+        "rank_p95": 8,
+        "rank_equal_weights_8deg": 4
+      },
+      {
+        "region": "Slater Plain",
+        "p_rank1": 15,
+        "p_top3": 39,
+        "median_rank": 6,
+        "rank_p05": 1,
+        "rank_p95": 9,
+        "rank_equal_weights_8deg": 3
+      },
+      {
+        "region": "Nobile Rim 2",
+        "p_rank1": 0,
+        "p_top3": 9,
+        "median_rank": 6,
+        "rank_p05": 3,
+        "rank_p95": 7,
+        "rank_equal_weights_8deg": 6
+      },
+      {
+        "region": "Peak Near Cabeus B",
+        "p_rank1": 0,
+        "p_top3": 0,
+        "median_rank": 8,
+        "rank_p05": 4,
+        "rank_p95": 9,
+        "rank_equal_weights_8deg": 8
+      },
+      {
+        "region": "Nobile Rim 1",
+        "p_rank1": 0,
+        "p_top3": 0,
+        "median_rank": 9,
+        "rank_p05": 7,
+        "rank_p95": 9,
+        "rank_equal_weights_8deg": 9
+      }
+    ],
+    "rank_hist": [
+      {
+        "region": "de Gerlache Rim 2",
+        "r1": 0,
+        "r2": 5.42,
+        "r3": 25.09,
+        "r4": 33.07,
+        "r5": 8.08,
+        "r6": 28.32,
+        "r7": 0.03,
+        "r8": 0,
+        "r9": 0
+      },
+      {
+        "region": "Haworth",
+        "r1": 0,
+        "r2": 8.66,
+        "r3": 19.99,
+        "r4": 14.37,
+        "r5": 17.9,
+        "r6": 16.91,
+        "r7": 15.96,
+        "r8": 3.73,
+        "r9": 2.48
+      },
+      {
+        "region": "Malapert Massif",
+        "r1": 0.47,
+        "r2": 39.59,
+        "r3": 8.83,
+        "r4": 3.64,
+        "r5": 3,
+        "r6": 1.52,
+        "r7": 39.04,
+        "r8": 3.91,
+        "r9": 0
+      },
+      {
+        "region": "Mons Mouton Plateau",
+        "r1": 84.53,
+        "r2": 9.98,
+        "r3": 4.63,
+        "r4": 0.85,
+        "r5": 0,
+        "r6": 0,
+        "r7": 0,
+        "r8": 0,
+        "r9": 0
+      },
+      {
+        "region": "Mons Mouton",
+        "r1": 0,
+        "r2": 17.23,
+        "r3": 27.58,
+        "r4": 24.46,
+        "r5": 23.47,
+        "r6": 7.18,
+        "r7": 0.08,
+        "r8": 0,
+        "r9": 0
+      },
+      {
+        "region": "Nobile Rim 1",
+        "r1": 0,
+        "r2": 0,
+        "r3": 0,
+        "r4": 0,
+        "r5": 0.32,
+        "r6": 1.34,
+        "r7": 6.32,
+        "r8": 31.47,
+        "r9": 60.55
+      },
+      {
+        "region": "Nobile Rim 2",
+        "r1": 0,
+        "r2": 0.09,
+        "r3": 8.93,
+        "r4": 13.38,
+        "r5": 24.02,
+        "r6": 37,
+        "r7": 16.59,
+        "r8": 0,
+        "r9": 0
+      },
+      {
+        "region": "Peak Near Cabeus B",
+        "r1": 0,
+        "r2": 0,
+        "r3": 0,
+        "r4": 5.97,
+        "r5": 19.3,
+        "r6": 4.01,
+        "r7": 8.89,
+        "r8": 31.09,
+        "r9": 30.74
+      },
+      {
+        "region": "Slater Plain",
+        "r1": 15,
+        "r2": 19.03,
+        "r3": 4.96,
+        "r4": 4.26,
+        "r5": 3.91,
+        "r6": 3.71,
+        "r7": 13.1,
+        "r8": 29.8,
+        "r9": 6.24
+      }
+    ],
+    "by_slope_limit": [
+      {
+        "region": "de Gerlache Rim 2",
+        "limit_5": 3,
+        "limit_8": 5,
+        "limit_10": 6,
+        "limit_15": 3
+      },
+      {
+        "region": "Haworth",
+        "limit_5": 6,
+        "limit_8": 4,
+        "limit_10": 4,
+        "limit_15": 2
+      },
+      {
+        "region": "Malapert Massif",
+        "limit_5": 2,
+        "limit_8": 7,
+        "limit_10": 7,
+        "limit_15": 7
+      },
+      {
+        "region": "Mons Mouton Plateau",
+        "limit_5": 1,
+        "limit_8": 1,
+        "limit_10": 1,
+        "limit_15": 1
+      },
+      {
+        "region": "Mons Mouton",
+        "limit_5": 4,
+        "limit_8": 2,
+        "limit_10": 2,
+        "limit_15": 4
+      },
+      {
+        "region": "Nobile Rim 1",
+        "limit_5": 9,
+        "limit_8": 9,
+        "limit_10": 9,
+        "limit_15": 9
+      },
+      {
+        "region": "Nobile Rim 2",
+        "limit_5": 5,
+        "limit_8": 6,
+        "limit_10": 5,
+        "limit_15": 6
+      },
+      {
+        "region": "Peak Near Cabeus B",
+        "limit_5": 8,
+        "limit_8": 8,
+        "limit_10": 8,
+        "limit_15": 8
+      },
+      {
+        "region": "Slater Plain",
+        "limit_5": 7,
+        "limit_8": 3,
+        "limit_10": 3,
+        "limit_15": 5
+      }
+    ],
+    "sweep": [
+      {
+        "criterion": "terrain",
+        "weight": 0,
+        "region": "de Gerlache Rim 2",
+        "rank": 3
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0,
+        "region": "Haworth",
+        "rank": 7
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0,
+        "region": "Malapert Massif",
+        "rank": 2
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0,
+        "region": "Mons Mouton Plateau",
+        "rank": 1
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0,
+        "region": "Mons Mouton",
+        "rank": 4
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0,
+        "region": "Nobile Rim 1",
+        "rank": 8
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0,
+        "region": "Nobile Rim 2",
+        "rank": 6
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0,
+        "region": "Peak Near Cabeus B",
+        "rank": 5
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0,
+        "region": "Slater Plain",
+        "rank": 9
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.1,
+        "region": "de Gerlache Rim 2",
+        "rank": 4
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.1,
+        "region": "Haworth",
+        "rank": 6
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.1,
+        "region": "Malapert Massif",
+        "rank": 2
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.1,
+        "region": "Mons Mouton Plateau",
+        "rank": 1
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.1,
+        "region": "Mons Mouton",
+        "rank": 3
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.1,
+        "region": "Nobile Rim 1",
+        "rank": 9
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.1,
+        "region": "Nobile Rim 2",
+        "rank": 7
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.1,
+        "region": "Peak Near Cabeus B",
+        "rank": 5
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.1,
+        "region": "Slater Plain",
+        "rank": 8
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.2,
+        "region": "de Gerlache Rim 2",
+        "rank": 4
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.2,
+        "region": "Haworth",
+        "rank": 5
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.2,
+        "region": "Malapert Massif",
+        "rank": 2
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.2,
+        "region": "Mons Mouton Plateau",
+        "rank": 1
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.2,
+        "region": "Mons Mouton",
+        "rank": 3
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.2,
+        "region": "Nobile Rim 1",
+        "rank": 9
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.2,
+        "region": "Nobile Rim 2",
+        "rank": 6
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.2,
+        "region": "Peak Near Cabeus B",
+        "rank": 7
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.2,
+        "region": "Slater Plain",
+        "rank": 8
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.3,
+        "region": "de Gerlache Rim 2",
+        "rank": 4
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.3,
+        "region": "Haworth",
+        "rank": 5
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.3,
+        "region": "Malapert Massif",
+        "rank": 3
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.3,
+        "region": "Mons Mouton Plateau",
+        "rank": 1
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.3,
+        "region": "Mons Mouton",
+        "rank": 2
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.3,
+        "region": "Nobile Rim 1",
+        "rank": 9
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.3,
+        "region": "Nobile Rim 2",
+        "rank": 6
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.3,
+        "region": "Peak Near Cabeus B",
+        "rank": 8
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.3,
+        "region": "Slater Plain",
+        "rank": 7
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.4,
+        "region": "de Gerlache Rim 2",
+        "rank": 6
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.4,
+        "region": "Haworth",
+        "rank": 4
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.4,
+        "region": "Malapert Massif",
+        "rank": 7
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.4,
+        "region": "Mons Mouton Plateau",
+        "rank": 1
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.4,
+        "region": "Mons Mouton",
+        "rank": 3
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.4,
+        "region": "Nobile Rim 1",
+        "rank": 9
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.4,
+        "region": "Nobile Rim 2",
+        "rank": 5
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.4,
+        "region": "Peak Near Cabeus B",
+        "rank": 8
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.4,
+        "region": "Slater Plain",
+        "rank": 2
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.5,
+        "region": "de Gerlache Rim 2",
+        "rank": 6
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.5,
+        "region": "Haworth",
+        "rank": 3
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.5,
+        "region": "Malapert Massif",
+        "rank": 7
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.5,
+        "region": "Mons Mouton Plateau",
+        "rank": 1
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.5,
+        "region": "Mons Mouton",
+        "rank": 4
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.5,
+        "region": "Nobile Rim 1",
+        "rank": 8
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.5,
+        "region": "Nobile Rim 2",
+        "rank": 5
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.5,
+        "region": "Peak Near Cabeus B",
+        "rank": 9
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.5,
+        "region": "Slater Plain",
+        "rank": 2
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.6,
+        "region": "de Gerlache Rim 2",
+        "rank": 6
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.6,
+        "region": "Haworth",
+        "rank": 3
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.6,
+        "region": "Malapert Massif",
+        "rank": 7
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.6,
+        "region": "Mons Mouton Plateau",
+        "rank": 1
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.6,
+        "region": "Mons Mouton",
+        "rank": 5
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.6,
+        "region": "Nobile Rim 1",
+        "rank": 8
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.6,
+        "region": "Nobile Rim 2",
+        "rank": 4
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.6,
+        "region": "Peak Near Cabeus B",
+        "rank": 9
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.6,
+        "region": "Slater Plain",
+        "rank": 2
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.7,
+        "region": "de Gerlache Rim 2",
+        "rank": 6
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.7,
+        "region": "Haworth",
+        "rank": 3
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.7,
+        "region": "Malapert Massif",
+        "rank": 7
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.7,
+        "region": "Mons Mouton Plateau",
+        "rank": 2
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.7,
+        "region": "Mons Mouton",
+        "rank": 5
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.7,
+        "region": "Nobile Rim 1",
+        "rank": 8
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.7,
+        "region": "Nobile Rim 2",
+        "rank": 4
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.7,
+        "region": "Peak Near Cabeus B",
+        "rank": 9
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.7,
+        "region": "Slater Plain",
+        "rank": 1
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.8,
+        "region": "de Gerlache Rim 2",
+        "rank": 6
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.8,
+        "region": "Haworth",
+        "rank": 3
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.8,
+        "region": "Malapert Massif",
+        "rank": 7
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.8,
+        "region": "Mons Mouton Plateau",
+        "rank": 2
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.8,
+        "region": "Mons Mouton",
+        "rank": 5
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.8,
+        "region": "Nobile Rim 1",
+        "rank": 8
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.8,
+        "region": "Nobile Rim 2",
+        "rank": 4
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.8,
+        "region": "Peak Near Cabeus B",
+        "rank": 9
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.8,
+        "region": "Slater Plain",
+        "rank": 1
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.9,
+        "region": "de Gerlache Rim 2",
+        "rank": 6
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.9,
+        "region": "Haworth",
+        "rank": 3
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.9,
+        "region": "Malapert Massif",
+        "rank": 8
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.9,
+        "region": "Mons Mouton Plateau",
+        "rank": 2
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.9,
+        "region": "Mons Mouton",
+        "rank": 5
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.9,
+        "region": "Nobile Rim 1",
+        "rank": 7
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.9,
+        "region": "Nobile Rim 2",
+        "rank": 4
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.9,
+        "region": "Peak Near Cabeus B",
+        "rank": 9
+      },
+      {
+        "criterion": "terrain",
+        "weight": 0.9,
+        "region": "Slater Plain",
+        "rank": 1
+      },
+      {
+        "criterion": "terrain",
+        "weight": 1,
+        "region": "de Gerlache Rim 2",
+        "rank": 6
+      },
+      {
+        "criterion": "terrain",
+        "weight": 1,
+        "region": "Haworth",
+        "rank": 2
+      },
+      {
+        "criterion": "terrain",
+        "weight": 1,
+        "region": "Malapert Massif",
+        "rank": 8
+      },
+      {
+        "criterion": "terrain",
+        "weight": 1,
+        "region": "Mons Mouton Plateau",
+        "rank": 4
+      },
+      {
+        "criterion": "terrain",
+        "weight": 1,
+        "region": "Mons Mouton",
+        "rank": 5
+      },
+      {
+        "criterion": "terrain",
+        "weight": 1,
+        "region": "Nobile Rim 1",
+        "rank": 7
+      },
+      {
+        "criterion": "terrain",
+        "weight": 1,
+        "region": "Nobile Rim 2",
+        "rank": 3
+      },
+      {
+        "criterion": "terrain",
+        "weight": 1,
+        "region": "Peak Near Cabeus B",
+        "rank": 9
+      },
+      {
+        "criterion": "terrain",
+        "weight": 1,
+        "region": "Slater Plain",
+        "rank": 1
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0,
+        "region": "de Gerlache Rim 2",
+        "rank": 6
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0,
+        "region": "Haworth",
+        "rank": 4
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0,
+        "region": "Malapert Massif",
+        "rank": 7
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0,
+        "region": "Mons Mouton Plateau",
+        "rank": 1
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0,
+        "region": "Mons Mouton",
+        "rank": 2
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0,
+        "region": "Nobile Rim 1",
+        "rank": 9
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0,
+        "region": "Nobile Rim 2",
+        "rank": 5
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0,
+        "region": "Peak Near Cabeus B",
+        "rank": 8
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0,
+        "region": "Slater Plain",
+        "rank": 3
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.1,
+        "region": "de Gerlache Rim 2",
+        "rank": 6
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.1,
+        "region": "Haworth",
+        "rank": 4
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.1,
+        "region": "Malapert Massif",
+        "rank": 7
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.1,
+        "region": "Mons Mouton Plateau",
+        "rank": 1
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.1,
+        "region": "Mons Mouton",
+        "rank": 2
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.1,
+        "region": "Nobile Rim 1",
+        "rank": 9
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.1,
+        "region": "Nobile Rim 2",
+        "rank": 5
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.1,
+        "region": "Peak Near Cabeus B",
+        "rank": 8
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.1,
+        "region": "Slater Plain",
+        "rank": 3
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.2,
+        "region": "de Gerlache Rim 2",
+        "rank": 6
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.2,
+        "region": "Haworth",
+        "rank": 4
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.2,
+        "region": "Malapert Massif",
+        "rank": 7
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.2,
+        "region": "Mons Mouton Plateau",
+        "rank": 1
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.2,
+        "region": "Mons Mouton",
+        "rank": 2
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.2,
+        "region": "Nobile Rim 1",
+        "rank": 9
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.2,
+        "region": "Nobile Rim 2",
+        "rank": 5
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.2,
+        "region": "Peak Near Cabeus B",
+        "rank": 8
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.2,
+        "region": "Slater Plain",
+        "rank": 3
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.3,
+        "region": "de Gerlache Rim 2",
+        "rank": 6
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.3,
+        "region": "Haworth",
+        "rank": 4
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.3,
+        "region": "Malapert Massif",
+        "rank": 7
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.3,
+        "region": "Mons Mouton Plateau",
+        "rank": 1
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.3,
+        "region": "Mons Mouton",
+        "rank": 2
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.3,
+        "region": "Nobile Rim 1",
+        "rank": 9
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.3,
+        "region": "Nobile Rim 2",
+        "rank": 5
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.3,
+        "region": "Peak Near Cabeus B",
+        "rank": 8
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.3,
+        "region": "Slater Plain",
+        "rank": 3
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.4,
+        "region": "de Gerlache Rim 2",
+        "rank": 3
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.4,
+        "region": "Haworth",
+        "rank": 6
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.4,
+        "region": "Malapert Massif",
+        "rank": 4
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.4,
+        "region": "Mons Mouton Plateau",
+        "rank": 1
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.4,
+        "region": "Mons Mouton",
+        "rank": 2
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.4,
+        "region": "Nobile Rim 1",
+        "rank": 9
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.4,
+        "region": "Nobile Rim 2",
+        "rank": 6
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.4,
+        "region": "Peak Near Cabeus B",
+        "rank": 8
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.4,
+        "region": "Slater Plain",
+        "rank": 5
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.5,
+        "region": "de Gerlache Rim 2",
+        "rank": 4
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.5,
+        "region": "Haworth",
+        "rank": 7
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.5,
+        "region": "Malapert Massif",
+        "rank": 2
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.5,
+        "region": "Mons Mouton Plateau",
+        "rank": 1
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.5,
+        "region": "Mons Mouton",
+        "rank": 3
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.5,
+        "region": "Nobile Rim 1",
+        "rank": 9
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.5,
+        "region": "Nobile Rim 2",
+        "rank": 5
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.5,
+        "region": "Peak Near Cabeus B",
+        "rank": 8
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.5,
+        "region": "Slater Plain",
+        "rank": 6
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.6,
+        "region": "de Gerlache Rim 2",
+        "rank": 3
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.6,
+        "region": "Haworth",
+        "rank": 7
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.6,
+        "region": "Malapert Massif",
+        "rank": 2
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.6,
+        "region": "Mons Mouton Plateau",
+        "rank": 1
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.6,
+        "region": "Mons Mouton",
+        "rank": 4
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.6,
+        "region": "Nobile Rim 1",
+        "rank": 9
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.6,
+        "region": "Nobile Rim 2",
+        "rank": 5
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.6,
+        "region": "Peak Near Cabeus B",
+        "rank": 8
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.6,
+        "region": "Slater Plain",
+        "rank": 6
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.7,
+        "region": "de Gerlache Rim 2",
+        "rank": 3
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.7,
+        "region": "Haworth",
+        "rank": 8
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.7,
+        "region": "Malapert Massif",
+        "rank": 2
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.7,
+        "region": "Mons Mouton Plateau",
+        "rank": 1
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.7,
+        "region": "Mons Mouton",
+        "rank": 4
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.7,
+        "region": "Nobile Rim 1",
+        "rank": 9
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.7,
+        "region": "Nobile Rim 2",
+        "rank": 5
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.7,
+        "region": "Peak Near Cabeus B",
+        "rank": 6
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.7,
+        "region": "Slater Plain",
+        "rank": 7
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.8,
+        "region": "de Gerlache Rim 2",
+        "rank": 3
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.8,
+        "region": "Haworth",
+        "rank": 9
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.8,
+        "region": "Malapert Massif",
+        "rank": 2
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.8,
+        "region": "Mons Mouton Plateau",
+        "rank": 1
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.8,
+        "region": "Mons Mouton",
+        "rank": 4
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.8,
+        "region": "Nobile Rim 1",
+        "rank": 7
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.8,
+        "region": "Nobile Rim 2",
+        "rank": 6
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.8,
+        "region": "Peak Near Cabeus B",
+        "rank": 5
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.8,
+        "region": "Slater Plain",
+        "rank": 8
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.9,
+        "region": "de Gerlache Rim 2",
+        "rank": 3
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.9,
+        "region": "Haworth",
+        "rank": 9
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.9,
+        "region": "Malapert Massif",
+        "rank": 2
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.9,
+        "region": "Mons Mouton Plateau",
+        "rank": 1
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.9,
+        "region": "Mons Mouton",
+        "rank": 5
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.9,
+        "region": "Nobile Rim 1",
+        "rank": 6
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.9,
+        "region": "Nobile Rim 2",
+        "rank": 7
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.9,
+        "region": "Peak Near Cabeus B",
+        "rank": 4
+      },
+      {
+        "criterion": "illumination",
+        "weight": 0.9,
+        "region": "Slater Plain",
+        "rank": 8
+      },
+      {
+        "criterion": "illumination",
+        "weight": 1,
+        "region": "de Gerlache Rim 2",
+        "rank": 3
+      },
+      {
+        "criterion": "illumination",
+        "weight": 1,
+        "region": "Haworth",
+        "rank": 9
+      },
+      {
+        "criterion": "illumination",
+        "weight": 1,
+        "region": "Malapert Massif",
+        "rank": 1
+      },
+      {
+        "criterion": "illumination",
+        "weight": 1,
+        "region": "Mons Mouton Plateau",
+        "rank": 2
+      },
+      {
+        "criterion": "illumination",
+        "weight": 1,
+        "region": "Mons Mouton",
+        "rank": 6
+      },
+      {
+        "criterion": "illumination",
+        "weight": 1,
+        "region": "Nobile Rim 1",
+        "rank": 5
+      },
+      {
+        "criterion": "illumination",
+        "weight": 1,
+        "region": "Nobile Rim 2",
+        "rank": 7
+      },
+      {
+        "criterion": "illumination",
+        "weight": 1,
+        "region": "Peak Near Cabeus B",
+        "rank": 4
+      },
+      {
+        "criterion": "illumination",
+        "weight": 1,
+        "region": "Slater Plain",
+        "rank": 8
+      },
+      {
+        "criterion": "earth",
+        "weight": 0,
+        "region": "de Gerlache Rim 2",
+        "rank": 6
+      },
+      {
+        "criterion": "earth",
+        "weight": 0,
+        "region": "Haworth",
+        "rank": 4
+      },
+      {
+        "criterion": "earth",
+        "weight": 0,
+        "region": "Malapert Massif",
+        "rank": 7
+      },
+      {
+        "criterion": "earth",
+        "weight": 0,
+        "region": "Mons Mouton Plateau",
+        "rank": 2
+      },
+      {
+        "criterion": "earth",
+        "weight": 0,
+        "region": "Mons Mouton",
+        "rank": 5
+      },
+      {
+        "criterion": "earth",
+        "weight": 0,
+        "region": "Nobile Rim 1",
+        "rank": 8
+      },
+      {
+        "criterion": "earth",
+        "weight": 0,
+        "region": "Nobile Rim 2",
+        "rank": 3
+      },
+      {
+        "criterion": "earth",
+        "weight": 0,
+        "region": "Peak Near Cabeus B",
+        "rank": 9
+      },
+      {
+        "criterion": "earth",
+        "weight": 0,
+        "region": "Slater Plain",
+        "rank": 1
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.1,
+        "region": "de Gerlache Rim 2",
+        "rank": 6
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.1,
+        "region": "Haworth",
+        "rank": 4
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.1,
+        "region": "Malapert Massif",
+        "rank": 7
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.1,
+        "region": "Mons Mouton Plateau",
+        "rank": 1
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.1,
+        "region": "Mons Mouton",
+        "rank": 5
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.1,
+        "region": "Nobile Rim 1",
+        "rank": 8
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.1,
+        "region": "Nobile Rim 2",
+        "rank": 3
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.1,
+        "region": "Peak Near Cabeus B",
+        "rank": 9
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.1,
+        "region": "Slater Plain",
+        "rank": 2
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.2,
+        "region": "de Gerlache Rim 2",
+        "rank": 6
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.2,
+        "region": "Haworth",
+        "rank": 5
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.2,
+        "region": "Malapert Massif",
+        "rank": 7
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.2,
+        "region": "Mons Mouton Plateau",
+        "rank": 1
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.2,
+        "region": "Mons Mouton",
+        "rank": 3
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.2,
+        "region": "Nobile Rim 1",
+        "rank": 9
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.2,
+        "region": "Nobile Rim 2",
+        "rank": 4
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.2,
+        "region": "Peak Near Cabeus B",
+        "rank": 8
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.2,
+        "region": "Slater Plain",
+        "rank": 2
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.3,
+        "region": "de Gerlache Rim 2",
+        "rank": 6
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.3,
+        "region": "Haworth",
+        "rank": 4
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.3,
+        "region": "Malapert Massif",
+        "rank": 7
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.3,
+        "region": "Mons Mouton Plateau",
+        "rank": 1
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.3,
+        "region": "Mons Mouton",
+        "rank": 2
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.3,
+        "region": "Nobile Rim 1",
+        "rank": 9
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.3,
+        "region": "Nobile Rim 2",
+        "rank": 5
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.3,
+        "region": "Peak Near Cabeus B",
+        "rank": 8
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.3,
+        "region": "Slater Plain",
+        "rank": 3
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.4,
+        "region": "de Gerlache Rim 2",
+        "rank": 4
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.4,
+        "region": "Haworth",
+        "rank": 5
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.4,
+        "region": "Malapert Massif",
+        "rank": 3
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.4,
+        "region": "Mons Mouton Plateau",
+        "rank": 1
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.4,
+        "region": "Mons Mouton",
+        "rank": 2
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.4,
+        "region": "Nobile Rim 1",
+        "rank": 9
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.4,
+        "region": "Nobile Rim 2",
+        "rank": 6
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.4,
+        "region": "Peak Near Cabeus B",
+        "rank": 8
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.4,
+        "region": "Slater Plain",
+        "rank": 7
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.5,
+        "region": "de Gerlache Rim 2",
+        "rank": 4
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.5,
+        "region": "Haworth",
+        "rank": 5
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.5,
+        "region": "Malapert Massif",
+        "rank": 3
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.5,
+        "region": "Mons Mouton Plateau",
+        "rank": 1
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.5,
+        "region": "Mons Mouton",
+        "rank": 2
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.5,
+        "region": "Nobile Rim 1",
+        "rank": 9
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.5,
+        "region": "Nobile Rim 2",
+        "rank": 6
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.5,
+        "region": "Peak Near Cabeus B",
+        "rank": 8
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.5,
+        "region": "Slater Plain",
+        "rank": 7
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.6,
+        "region": "de Gerlache Rim 2",
+        "rank": 4
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.6,
+        "region": "Haworth",
+        "rank": 5
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.6,
+        "region": "Malapert Massif",
+        "rank": 2
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.6,
+        "region": "Mons Mouton Plateau",
+        "rank": 1
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.6,
+        "region": "Mons Mouton",
+        "rank": 3
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.6,
+        "region": "Nobile Rim 1",
+        "rank": 9
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.6,
+        "region": "Nobile Rim 2",
+        "rank": 6
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.6,
+        "region": "Peak Near Cabeus B",
+        "rank": 7
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.6,
+        "region": "Slater Plain",
+        "rank": 8
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.7,
+        "region": "de Gerlache Rim 2",
+        "rank": 4
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.7,
+        "region": "Haworth",
+        "rank": 5
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.7,
+        "region": "Malapert Massif",
+        "rank": 2
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.7,
+        "region": "Mons Mouton Plateau",
+        "rank": 1
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.7,
+        "region": "Mons Mouton",
+        "rank": 3
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.7,
+        "region": "Nobile Rim 1",
+        "rank": 9
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.7,
+        "region": "Nobile Rim 2",
+        "rank": 6
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.7,
+        "region": "Peak Near Cabeus B",
+        "rank": 7
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.7,
+        "region": "Slater Plain",
+        "rank": 8
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.8,
+        "region": "de Gerlache Rim 2",
+        "rank": 4
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.8,
+        "region": "Haworth",
+        "rank": 6
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.8,
+        "region": "Malapert Massif",
+        "rank": 2
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.8,
+        "region": "Mons Mouton Plateau",
+        "rank": 1
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.8,
+        "region": "Mons Mouton",
+        "rank": 3
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.8,
+        "region": "Nobile Rim 1",
+        "rank": 9
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.8,
+        "region": "Nobile Rim 2",
+        "rank": 7
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.8,
+        "region": "Peak Near Cabeus B",
+        "rank": 5
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.8,
+        "region": "Slater Plain",
+        "rank": 8
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.9,
+        "region": "de Gerlache Rim 2",
+        "rank": 4
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.9,
+        "region": "Haworth",
+        "rank": 6
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.9,
+        "region": "Malapert Massif",
+        "rank": 2
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.9,
+        "region": "Mons Mouton Plateau",
+        "rank": 1
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.9,
+        "region": "Mons Mouton",
+        "rank": 3
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.9,
+        "region": "Nobile Rim 1",
+        "rank": 9
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.9,
+        "region": "Nobile Rim 2",
+        "rank": 7
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.9,
+        "region": "Peak Near Cabeus B",
+        "rank": 5
+      },
+      {
+        "criterion": "earth",
+        "weight": 0.9,
+        "region": "Slater Plain",
+        "rank": 8
+      },
+      {
+        "criterion": "earth",
+        "weight": 1,
+        "region": "de Gerlache Rim 2",
+        "rank": 4
+      },
+      {
+        "criterion": "earth",
+        "weight": 1,
+        "region": "Haworth",
+        "rank": 6
+      },
+      {
+        "criterion": "earth",
+        "weight": 1,
+        "region": "Malapert Massif",
+        "rank": 2
+      },
+      {
+        "criterion": "earth",
+        "weight": 1,
+        "region": "Mons Mouton Plateau",
+        "rank": 1
+      },
+      {
+        "criterion": "earth",
+        "weight": 1,
+        "region": "Mons Mouton",
+        "rank": 3
+      },
+      {
+        "criterion": "earth",
+        "weight": 1,
+        "region": "Nobile Rim 1",
+        "rank": 9
+      },
+      {
+        "criterion": "earth",
+        "weight": 1,
+        "region": "Nobile Rim 2",
+        "rank": 7
+      },
+      {
+        "criterion": "earth",
+        "weight": 1,
+        "region": "Peak Near Cabeus B",
+        "rank": 5
+      },
+      {
+        "criterion": "earth",
+        "weight": 1,
+        "region": "Slater Plain",
+        "rank": 8
+      }
+    ],
+    "suitable_area": [
+      {
+        "region": "de Gerlache Rim 2",
+        "suitable_share_median": 14.3,
+        "suitable_share_p05": 0,
+        "suitable_share_p95": 65.8
+      },
+      {
+        "region": "Haworth",
+        "suitable_share_median": 21.2,
+        "suitable_share_p05": 0.2,
+        "suitable_share_p95": 77.2
+      },
+      {
+        "region": "Malapert Massif",
+        "suitable_share_median": 27.1,
+        "suitable_share_p05": 0.5,
+        "suitable_share_p95": 54.3
+      },
+      {
+        "region": "Mons Mouton Plateau",
+        "suitable_share_median": 50,
+        "suitable_share_p05": 6.8,
+        "suitable_share_p95": 79.1
+      },
+      {
+        "region": "Mons Mouton",
+        "suitable_share_median": 35.4,
+        "suitable_share_p05": 0,
+        "suitable_share_p95": 62.5
+      },
+      {
+        "region": "Nobile Rim 1",
+        "suitable_share_median": 12.8,
+        "suitable_share_p05": 2,
+        "suitable_share_p95": 36.2
+      },
+      {
+        "region": "Nobile Rim 2",
+        "suitable_share_median": 32.4,
+        "suitable_share_p05": 3.8,
+        "suitable_share_p95": 67.6
+      },
+      {
+        "region": "Peak Near Cabeus B",
+        "suitable_share_median": 11.2,
+        "suitable_share_p05": 0,
+        "suitable_share_p95": 41.3
+      },
+      {
+        "region": "Slater Plain",
+        "suitable_share_median": 8.7,
+        "suitable_share_p05": 0,
+        "suitable_share_p95": 82.1
+      }
+    ]
+  },
+  "sites": {
+    "scenarios": 40000,
+    "weights": "same 10,000 Dirichlet(1,1,1) weight vectors as the regions",
+    "slope_limits_deg": [5, 8, 10, 15],
+    "criteria": ["Flat ground", "Sunlight, long-term", "Earth in view, long-term"],
+    "table": [
+      {
+        "id": "MM",
+        "name": "Mons Mouton",
+        "p_rank1": 82.6,
+        "p_top2": 86.7,
+        "median_rank": 1,
+        "rank_p05": 1,
+        "rank_p95": 3
+      },
+      {
+        "id": "HW",
+        "name": "Haworth",
+        "p_rank1": 0,
+        "p_top2": 51.7,
+        "median_rank": 2,
+        "rank_p05": 2,
+        "rank_p95": 4
+      },
+      {
+        "id": "CR",
+        "name": "Connecting Ridge",
+        "p_rank1": 17.4,
+        "p_top2": 48.3,
+        "median_rank": 3,
+        "rank_p05": 1,
+        "rank_p95": 4
+      },
+      {
+        "id": "NR1",
+        "name": "Nobile Rim 1",
+        "p_rank1": 0,
+        "p_top2": 13.3,
+        "median_rank": 3,
+        "rank_p05": 2,
+        "rank_p95": 4
+      },
+      {
+        "id": "NR2",
+        "name": "Nobile Rim 2",
+        "p_rank1": 0,
+        "p_top2": 0,
+        "median_rank": 5,
+        "rank_p05": 4,
+        "rank_p95": 5
+      }
+    ],
+    "rank_hist": [
+      {
+        "id": "CR",
+        "r1": 17.42,
+        "r2": 30.89,
+        "r3": 39.03,
+        "r4": 9.24,
+        "r5": 3.42
+      },
+      {
+        "id": "HW",
+        "r1": 0,
+        "r2": 51.69,
+        "r3": 6.86,
+        "r4": 41.45,
+        "r5": 0
+      },
+      {
+        "id": "NR1",
+        "r1": 0,
+        "r2": 13.27,
+        "r3": 37.46,
+        "r4": 46.56,
+        "r5": 2.71
+      },
+      {
+        "id": "NR2",
+        "r1": 0,
+        "r2": 0,
+        "r3": 3.38,
+        "r4": 2.76,
+        "r5": 93.87
+      },
+      {
+        "id": "MM",
+        "r1": 82.58,
+        "r2": 4.16,
+        "r3": 13.27,
+        "r4": 0,
+        "r5": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "generated_utc": "2026-11-14T01:41:54Z",
+  "generator": "data-raw/build_terrain.R",
+  "terra_version": "1.9.50",
+  "source": "Barker, M. K. et al. (2023) A New View of the Lunar South Pole from LOLA, PSJ 4, 183; NASA GSFC PGDA product 90",
+  "source_page": "https://pgda.gsfc.nasa.gov/products/90",
+  "inputs": {
+    "slope": {
+      "file": "LDSM_80S_80MPP_ADJ.tiff",
+      "bytes": 241594035,
+      "md5": "587f2312781306c22e41320379d9a8c7",
+      "crs_proj4": "+proj=stere +lat_0=-90 +lon_0=0 +k=1 +x_0=0 +y_0=0 +R=1737400 +units=m +no_defs",
+      "dim_px": [7600, 7600],
+      "res_m": [80, 80],
+      "extent_m": [-304000, 304000, -304000, 304000]
+    },
+    "hillshade": {
+      "file": "LDEM_80S_80MPP_ADJ_HILL.tiff",
+      "bytes": 88474342,
+      "md5": "a019d01134f0c38ae23f0595c1603494",
+      "crs_proj4": "+proj=stere +lat_0=-90 +lon_0=0 +k=1 +x_0=0 +y_0=0 +R=1737400 +units=m +no_defs",
+      "dim_px": [7600, 7600],
+      "res_m": [80, 80],
+      "extent_m": [-304000, 304000, -304000, 304000]
+    },
+    "illum_sun": {
+      "label": "AVGVISIB_75S_120M_201608.LBL",
+      "file": "AVGVISIB_75S_120M_201608.IMG",
+      "bytes": 116250752,
+      "md5": "00d07bfbb3fd5bee3fb36a4deeaae26c",
+      "crs_proj4": "+proj=stere +lat_0=-90 +lon_0=0 +k=1 +x_0=0 +y_0=0 +R=1737400 +units=m +no_defs",
+      "dim_px": [7624, 7624],
+      "res_m": [120, 120],
+      "extent_m": [-457440, 457440, -457440, 457440]
+    },
+    "illum_earth": {
+      "label": "AVGVISIB_75S_120M_201608_EARTH.LBL",
+      "file": "AVGVISIB_75S_120M_201608_EARTH.IMG",
+      "bytes": 116250752,
+      "md5": "6a044319dd2e209a3089cd2543b9b2bf",
+      "crs_proj4": "+proj=stere +lat_0=-90 +lon_0=0 +k=1 +x_0=0 +y_0=0 +R=1737400 +units=m +no_defs",
+      "dim_px": [7624, 7624],
+      "res_m": [120, 120],
+      "extent_m": [-457440, 457440, -457440, 457440]
+    }
+  },
+  "illumination_source": "Mazarico, E. et al. (2011) Icarus 211, 1066-1081; 18.6-year hourly averages; PGDA product 69",
+  "method": {
+    "projection": "Inputs sampled at lon/lat of the app's south-polar azimuthal-equidistant grid (80-90 S) via terra::project from the GeoTIFF's own CRS.",
+    "hillshade": "3072 px image, bilinear sampling, 0.5-99.5 % stretch to 8 bit.",
+    "grid": "400 x 400 cells (~1.52 km); 64 stratified nearest-pixel samples per cell; median slope and share below 5/8/10/15 deg; cells with < 16 valid samples left empty.",
+    "sites": "Bilinear slope at the point and on a 40 m lattice within 1000 m."
+  },
+  "limitations": "LOLA slope at 80 m baseline; boulders and sub-pixel hazards are not resolved. Slope error map (LDSM_..._ERR) not yet used."
+}

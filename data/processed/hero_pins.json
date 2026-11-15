@@ -1,0 +1,133 @@
+{
+ "view": {
+  "lat": -66.0,
+  "lon": 10.0
+ },
+ "sun": {
+  "lat": -1.5,
+  "lon": -80.0
+ },
+ "pole": {
+  "u": 0.5,
+  "v": 0.7034
+ },
+ "pins": [
+  {
+   "kind": "site",
+   "id": "CR",
+   "name": "Connecting Ridge",
+   "lat": -89.466667,
+   "lon": 223.333333,
+   "u": 0.4974,
+   "v": 0.7069,
+   "visible": true,
+   "lu": 0.5183,
+   "lv": 0.5194
+  },
+  {
+   "kind": "site",
+   "id": "HW",
+   "name": "Haworth",
+   "lat": -86.80555,
+   "lon": 338.23425,
+   "u": 0.4853,
+   "v": 0.6814,
+   "visible": true,
+   "lu": 0.5592,
+   "lv": 0.3517
+  },
+  {
+   "kind": "site",
+   "id": "NR1",
+   "name": "Nobile Rim 1",
+   "lat": -85.54419,
+   "lon": 37.6266,
+   "u": 0.518,
+   "v": 0.6713,
+   "visible": true,
+   "lu": 0.364,
+   "lv": 0.3235
+  },
+  {
+   "kind": "site",
+   "id": "NR2",
+   "name": "Nobile Rim 2",
+   "lat": -84.20156,
+   "lon": 60.69989,
+   "u": 0.5391,
+   "v": 0.6731,
+   "visible": true,
+   "lu": 0.2472,
+   "lv": 0.3581
+  },
+  {
+   "kind": "site",
+   "id": "MM",
+   "name": "Mons Mouton",
+   "lat": -84.7906,
+   "lon": 29.1957,
+   "u": 0.5149,
+   "v": 0.6634,
+   "visible": true,
+   "lu": 0.3729,
+   "lv": 0.2726
+  },
+  {
+   "kind": "landing",
+   "id": "ch3",
+   "name": "Chandrayaan-3",
+   "lat": -69.3741,
+   "lon": 32.32,
+   "u": 0.5669,
+   "v": 0.5415,
+   "visible": true
+  },
+  {
+   "kind": "landing",
+   "id": "im1",
+   "name": "IM-1 Odysseus",
+   "lat": -80.13,
+   "lon": 1.44,
+   "u": 0.4872,
+   "v": 0.6229,
+   "visible": true,
+   "lu": 0.4876,
+   "lv": 0.0067
+  },
+  {
+   "kind": "landing",
+   "id": "im2",
+   "name": "IM-2 Athena",
+   "lat": -84.7906,
+   "lon": 29.1957,
+   "u": 0.5149,
+   "v": 0.6634,
+   "visible": true,
+   "lu": 0.3729,
+   "lv": 0.2726
+  },
+  {
+   "kind": "landing",
+   "id": "vikram2",
+   "name": "Chandrayaan-2 Vikram",
+   "lat": -70.881,
+   "lon": 22.784,
+   "u": 0.5362,
+   "v": 0.5463,
+   "visible": true
+  },
+  {
+   "kind": "landing",
+   "id": "change7",
+   "name": "Chang'e 7 (planned)",
+   "lat": -88.8,
+   "lon": 123.4,
+   "u": 0.5096,
+   "v": 0.7071,
+   "visible": true,
+   "lu": 0.4499,
+   "lv": 0.533
+  }
+ ],
+ "texture_credit": "NASA's Scientific Visualization Studio; NASA/GSFC/ASU (LROC)"
+}

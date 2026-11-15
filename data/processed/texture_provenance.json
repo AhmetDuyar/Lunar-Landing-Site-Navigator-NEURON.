@@ -1,0 +1,19 @@
+{
+  "source_file": "lroc_color_poles_8k.tif",
+  "source_sha256": "4af8b0cd4d50c30851359d98e7e72040240dd8d03256b58b345b5b76e9edb4ef",
+  "source_size_px": [
+    8192,
+    4096
+  ],
+  "source_page": "https://svs.gsfc.nasa.gov/4720/",
+  "credit": "NASA's Scientific Visualization Studio; NASA/GSFC/Arizona State University",
+  "outputs": {
+    "www/assets/moon_global_4k.jpg": "greyscale, Lanczos downsample, autocontrast 0.3 %",
+    "www/assets/moon_south_cap.jpg": "greyscale, azimuthal equidistant 75S-90S, bicubic resampling, percentile stretch, denoise sigma 1.2 px, local-contrast (Gaussian sigma 90 px, 0.30), tone map 0.10-0.92, unsharp mask r=1.6"
+  },
+  "cap_extent_deg": 15.0,
+  "effective_resolution_note": "Source latitude sampling 22.8 px/deg (~1.33 km/px); the cap image is upsampled and cannot show detail finer than the source.",
+  "use": "Visual orientation only; not used in any calculation.",
+  "obtained_via": "Public mirror of the unmodified NASA file (github.com/akshaj99/MoonVis, data/lroc_color_poles_8k.tif) because svs.gsfc.nasa.gov was not reachable from the build environment.",
+  "verification": "Downsampled to 2048x1024 and compared with lroc_color_poles_2k from the same SVS kit: Pearson r = 0.994, mean |diff| = 2.3 / 255 (JPEG recompression). Re-download from SVS and compare SHA-256 before publication."
+}

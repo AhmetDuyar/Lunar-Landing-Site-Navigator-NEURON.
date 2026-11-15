@@ -1,0 +1,36 @@
+id,mission,agency,date,lat,lon,outcome,crewed,note,coord_source
+luna9,Luna 9,USSR,1966-02-03,7.13,-64.37,landed,FALSE,First soft landing on the Moon. Position from initial report; LROC has not located the lander.,nssdca_artifacts
+surveyor1,Surveyor 1,NASA,1966-06-02,-2.4745,-43.3398,landed,FALSE,First US soft landing.,nssdca_artifacts
+luna13,Luna 13,USSR,1966-12-24,18.87,-62.05,landed,FALSE,Oceanus Procellarum.,nssdca_artifacts
+surveyor3,Surveyor 3,NASA,1967-04-20,-3.0162,-23.4180,landed,FALSE,Visited by Apollo 12 astronauts in 1969.,nssdca_artifacts
+surveyor5,Surveyor 5,NASA,1967-09-11,1.4551,23.1943,landed,FALSE,Mare Tranquillitatis.,nssdca_artifacts
+surveyor6,Surveyor 6,NASA,1967-11-10,0.4742,-1.4275,landed,FALSE,First engine lift-off from the Moon (short hop).,nssdca_artifacts
+surveyor7,Surveyor 7,NASA,1968-01-10,-40.9812,-11.5127,landed,FALSE,Highlands near Tycho crater.,nssdca_artifacts
+apollo11,Apollo 11,NASA,1969-07-20,0.67416,23.47314,landed,TRUE,First crewed landing. Mare Tranquillitatis.,nssdca_artifacts
+apollo12,Apollo 12,NASA,1969-11-19,-3.0128,-23.4219,landed,TRUE,Pinpoint landing next to Surveyor 3.,nssdca_artifacts
+apollo14,Apollo 14,NASA,1971-02-05,-3.64589,-17.47194,landed,TRUE,Fra Mauro highlands.,nssdca_artifacts
+apollo15,Apollo 15,NASA,1971-07-30,26.13239,3.63330,landed,TRUE,Hadley-Apennine. First lunar rover.,nssdca_artifacts
+apollo16,Apollo 16,NASA,1972-04-21,-8.9734,15.5011,landed,TRUE,Descartes highlands.,nssdca_artifacts
+apollo17,Apollo 17,NASA,1972-12-11,20.1911,30.7723,landed,TRUE,Taurus-Littrow. Last crewed landing to date.,nssdca_artifacts
+luna16,Luna 16,USSR,1970-09-20,-0.5137,56.3638,landed,FALSE,First robotic sample return.,nssdca_artifacts
+luna17,Luna 17 / Lunokhod 1,USSR,1970-11-17,38.23764,-35.00163,landed,FALSE,First robotic rover.,nssdca_artifacts
+luna20,Luna 20,USSR,1972-02-21,3.7863,56.6242,landed,FALSE,Sample return from the highlands.,nssdca_artifacts
+luna21,Luna 21 / Lunokhod 2,USSR,1973-01-15,25.9994,30.4076,landed,FALSE,Le Monnier crater.,nssdca_artifacts
+luna23,Luna 23,USSR,1974-11-06,12.6667,62.1511,landed,FALSE,Tipped over at landing; drill damaged.,nssdca_artifacts
+luna24,Luna 24,USSR,1976-08-18,12.7142,62.2129,landed,FALSE,Last Soviet landing. Sample return.,nssdca_artifacts
+change3,Chang'e 3,CNSA,2013-12-14,44.1214,-19.5117,landed,FALSE,Mare Imbrium. Yutu rover.,nssdca_artifacts
+change4,Chang'e 4,CNSA,2019-01-03,-45.4561,177.5885,landed,FALSE,First landing on the far side (Von Kármán crater).,nssdca_artifacts
+change5,Chang'e 5,CNSA,2020-12-01,43.0576,-51.9161,landed,FALSE,Sample return from young basalts.,nssdca_artifacts
+ch3,Chandrayaan-3,ISRO,2023-08-23,-69.3741,32.32,landed,FALSE,First soft landing at high southern latitude (69°S).,nssdca_artifacts
+slim,SLIM,JAXA,2024-01-19,-13.3160,25.2510,tipped,FALSE,Precision landing within 100 m; came to rest upside down.,nssdca_artifacts
+im1,IM-1 Odysseus,Intuitive Machines / NASA CLPS,2024-02-22,-80.13,1.44,tipped,FALSE,Landed on a ~12° slope near Malapert A and tipped over.,nssdca_artifacts
+change6,Chang'e 6,CNSA,2024-06-01,-41.6385,-153.9852,landed,FALSE,First sample return from the far side (Apollo basin).,nssdca_artifacts
+bg1,Blue Ghost Mission 1,Firefly / NASA CLPS,2025-03-02,18.562,61.810,landed,FALSE,First fully successful commercial landing (Mare Crisium).,nssdca_artifacts
+im2,IM-2 Athena,Intuitive Machines / NASA CLPS,2025-03-06,-84.7906,29.1957,tipped,FALSE,Southernmost landing so far (Mons Mouton); came to rest on its side.,nssdca_artifacts
+luna15,Luna 15,USSR,1969-07-21,17,60,crashed,FALSE,Crashed in Mare Crisium during Apollo 11.,nssdca_artifacts
+vikram2,Chandrayaan-2 Vikram,ISRO,2019-09-06,-70.8810,22.7840,crashed,FALSE,Lost in final descent.,nssdca_artifacts
+beresheet,Beresheet,SpaceIL,2019-04-11,32.5956,19.3496,crashed,FALSE,Engine failure in final descent.,nssdca_artifacts
+hakuto1,Hakuto-R Mission 1,ispace,2023-04-25,47.581,44.094,crashed,FALSE,Altitude estimate error; fuel exhausted.,nssdca_artifacts
+luna25,Luna 25,Roscosmos,2023-08-19,-57.865,61.360,crashed,FALSE,Crashed before its south-polar landing attempt.,nssdca_artifacts
+resilience,Hakuto-R Mission 2 Resilience,ispace,2025-06-05,60.4445,-4.588,crashed,FALSE,Laser rangefinder issue in final descent.,nssdca_artifacts
+change7,Chang'e 7 (planned),CNSA,2027,-88.8,123.4,planned,FALSE,Planned landing on a ridge near Shackleton crater; launch slipped from 2026 to 2027.,wiki_change7

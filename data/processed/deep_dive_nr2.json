@@ -1,0 +1,44 @@
+{
+  "region": "Nobile Rim 2",
+  "published_source": "Pena-Asensio, Neira-Acosta & Sanchez-Lozano (2025) Acta Astronautica 226, 469-478, Table 3",
+  "earth": {
+    "n": 12,
+    "pearson_r": 0.998,
+    "mean_abs_diff_pp": 0.9,
+    "max_abs_diff_pp": 1.93
+  },
+  "c3": {
+    "spearman_rho": 0.958,
+    "pearson_r": 0.962
+  },
+  "slope": {
+    "points_below_5deg_point": 11,
+    "points_below_5deg_100m_max": 11,
+    "n": 12
+  },
+  "inside_2024_outline": 12,
+  "region_raw_vs_grid": [
+    {
+      "region": "Nobile Rim 2",
+      "area_km2": 425,
+      "raw_slope_px": 66528,
+      "raw_slope_median": 10.73,
+      "raw_flat_lt5": 17.09,
+      "raw_flat_lt8": 34.88,
+      "raw_flat_lt10": 46.06,
+      "raw_flat_lt15": 71.07,
+      "raw_illum_px": 29568,
+      "raw_sun_mean": 26.65,
+      "raw_sun_p90": 44.03,
+      "raw_earth_mean": 35.48,
+      "raw_psr_pct": 10.03,
+      "grid_cells": 182,
+      "grid_slope_median": 10.3,
+      "grid_flat_lt8": 36.85,
+      "grid_sun_mean": 27.51,
+      "grid_earth_mean": 36.99,
+      "grid_psr_pct": 8.54
+    }
+  ],
+  "generated_utc": "2026-11-14T02:25:49Z"
+}

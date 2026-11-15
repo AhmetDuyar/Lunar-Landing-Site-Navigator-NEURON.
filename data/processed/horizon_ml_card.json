@@ -1,0 +1,338 @@
+{
+ "generated_utc": "2026-11-15T00:20:45Z",
+ "question": "Predict the exact 80 m terrain horizon from a 1280 m DEM (256x fewer cells) so the app can be terrain-aware at any point.",
+ "data": {
+  "points": 20000,
+  "azimuths_per_point": 36,
+  "rows": 720000,
+  "area": "83.5 to 90 deg S, uniform in area",
+  "target": "exact horizon, LOLA 80 m DEM, 2 m observer, 150 km, curvature",
+  "spatial_blocks_30km": 164
+ },
+ "validation": "5-fold GroupKFold over 30 km x 30 km blocks",
+ "cv": {
+  "baseline": {
+   "mae_deg": 1.469,
+   "rmse_deg": 2.262,
+   "r2": 0.8278,
+   "p95_abs_deg": 4.712
+  },
+  "gbm": {
+   "mae_deg": 0.955,
+   "rmse_deg": 1.508,
+   "r2": 0.9234,
+   "p95_abs_deg": 2.944
+  },
+  "mlp": {
+   "mae_deg": 0.942,
+   "rmse_deg": 1.495,
+   "r2": 0.9248,
+   "p95_abs_deg": 2.932
+  },
+  "zero_horizon": {
+   "mae_deg": 5.533,
+   "rmse_deg": 7.53,
+   "r2": -0.9092,
+   "p95_abs_deg": 16.089
+  }
+ },
+ "downstream_300_heldout_points": {
+  "baseline": {
+   "sun_mae_pp": 7.15,
+   "earth_mae_pp": 6.12,
+   "sun_hour_agreement_pct": 92.68
+  },
+  "mlp": {
+   "sun_mae_pp": 3.18,
+   "earth_mae_pp": 3.93,
+   "sun_hour_agreement_pct": 95.34
+  },
+  "gbm": {
+   "sun_mae_pp": 3.36,
+   "earth_mae_pp": 3.86,
+   "sun_hour_agreement_pct": 95.19
+  },
+  "smooth": {
+   "sun_mae_pp": 27.42,
+   "earth_mae_pp": 27.02,
+   "sun_hour_agreement_pct": 69.57
+  }
+ },
+ "mlp": {
+  "hidden_layers": [
+   48,
+   48
+  ],
+  "parameters": 3121
+ },
+ "importance_gbm_permutation_mae": [
+  [
+   "theta_1km",
+   2.0608
+  ],
+  [
+   "theta_2km",
+   1.3924
+  ],
+  [
+   "theta_4km",
+   0.2712
+  ],
+  [
+   "relief_3x3",
+   0.2503
+  ],
+  [
+   "elevation",
+   0.1277
+  ],
+  [
+   "theta_coarse_max",
+   0.1077
+  ],
+  [
+   "colatitude",
+   0.0849
+  ],
+  [
+   "theta_8km",
+   0.0387
+  ],
+  [
+   "theta_16km",
+   0.0191
+  ],
+  [
+   "theta_32km",
+   0.0159
+  ],
+  [
+   "theta_64km",
+   0.0135
+  ],
+  [
+   "theta_128km",
+   0.0123
+  ],
+  [
+   "cos_az",
+   0.0122
+  ],
+  [
+   "sin_az",
+   0.0058
+  ]
+ ],
+ "reference_predictions": [
+  {
+   "lat": -85.0,
+   "lon": 45.0,
+   "horizon_deg": [
+    11.6675,
+    9.6478,
+    7.0083,
+    4.2069,
+    2.9076,
+    1.4711,
+    -0.8293,
+    -0.5802,
+    -1.6608,
+    -1.8848,
+    -2.0376,
+    -2.3388,
+    -2.6386,
+    -2.8797,
+    -2.5179,
+    -1.8885,
+    -1.4158,
+    -0.367,
+    1.2007,
+    3.2712,
+    3.0496,
+    2.5603,
+    3.4296,
+    6.0306,
+    8.6924,
+    10.4221,
+    12.3903,
+    13.5303,
+    13.7943,
+    14.5904,
+    15.2433,
+    15.2651,
+    15.5189,
+    15.2524,
+    13.5774,
+    12.8142
+   ]
+  },
+  {
+   "lat": -88.2,
+   "lon": 300.0,
+   "horizon_deg": [
+    -0.714,
+    -1.1028,
+    -1.4789,
+    -0.8343,
+    -0.48,
+    -0.5029,
+    0.7096,
+    1.2846,
+    0.3359,
+    0.9549,
+    1.5904,
+    2.293,
+    3.6358,
+    5.4811,
+    7.0381,
+    8.4876,
+    9.7196,
+    10.9679,
+    11.8512,
+    12.866,
+    13.6282,
+    13.8545,
+    13.387,
+    12.5016,
+    11.3118,
+    9.5007,
+    7.6618,
+    5.5218,
+    3.9315,
+    2.0379,
+    0.1502,
+    -0.6307,
+    -1.2285,
+    -1.7552,
+    -0.7064,
+    -0.7022
+   ]
+  },
+  {
+   "lat": -84.7906,
+   "lon": 29.1957,
+   "horizon_deg": [
+    0.9897,
+    1.2649,
+    1.8493,
+    2.2871,
+    2.7926,
+    3.0187,
+    2.4961,
+    2.4026,
+    2.4451,
+    3.2639,
+    3.5113,
+    4.1933,
+    4.3804,
+    4.1189,
+    4.0801,
+    4.7019,
+    4.6867,
+    4.9307,
+    4.481,
+    3.6366,
+    2.8484,
+    2.2359,
+    2.2024,
+    2.4177,
+    2.4571,
+    2.3457,
+    2.3544,
+    2.0221,
+    1.7042,
+    1.6247,
+    1.277,
+    1.2062,
+    1.0035,
+    0.9439,
+    0.7355,
+    0.6745
+   ]
+  }
+ ],
+ "limits": [
+  "Horizons towards the north are truncated at the DEM edge (80 deg S).",
+  "Trained on 83.5 to 90 deg S; outside this band the model extrapolates.",
+  "Used only for points without a precomputed exact horizon; curated sites and landings use the exact horizon.",
+  "Not better than the coarse terrain at the seven curated sites and landings (out of distribution); the app uses exact horizons there."
+ ],
+ "sites_out_of_distribution": {
+  "rows": [
+   {
+    "id": "CR",
+    "name": "Connecting Ridge",
+    "coarse_mae_deg": 0.97,
+    "mlp_mae_deg": 1.34
+   },
+   {
+    "id": "HW",
+    "name": "Haworth",
+    "coarse_mae_deg": 0.92,
+    "mlp_mae_deg": 1.33
+   },
+   {
+    "id": "NR1",
+    "name": "Nobile Rim 1",
+    "coarse_mae_deg": 1.01,
+    "mlp_mae_deg": 3.38
+   },
+   {
+    "id": "NR2",
+    "name": "Nobile Rim 2",
+    "coarse_mae_deg": 1.64,
+    "mlp_mae_deg": 0.54
+   },
+   {
+    "id": "MM",
+    "name": "Mons Mouton",
+    "coarse_mae_deg": 0.62,
+    "mlp_mae_deg": 1.45
+   },
+   {
+    "id": "im1",
+    "name": "IM-1 Odysseus",
+    "coarse_mae_deg": 3.31,
+    "mlp_mae_deg": 1.41
+   },
+   {
+    "id": "change7",
+    "name": "Chang'e 7 (planned)",
+    "coarse_mae_deg": 1.35,
+    "mlp_mae_deg": 1.34
+   }
+  ],
+  "mean_coarse_mae_deg": 1.4,
+  "mean_mlp_mae_deg": 1.54,
+  "note": "Published sites are rims and summits selected for light. On these seven places the surrogate is not better than the coarse terrain, so the app always uses the exact horizon for them."
+ },
+ "model_choice": {
+  "why_neural_network": [
+   "Accuracy: on the same spatial fold the neural network (0.914 deg), a random forest (0.913 deg) and gradient boosting (0.921 deg) are equal within 0.01 deg; a linear model is clearly worse (1.084 deg, 5-fold), so the relation is non-linear.",
+   "Size: the network is 3,121 numbers (67.7 KB JSON); gradient boosting needs 400 trees with 38,000 nodes (2.2 MB), the random forest 391 MB.",
+   "Deployment: the app evaluates the network in plain R as three matrix multiplications (about 3.5 ms for 360 azimuths) with no extra package; tree models would need their library or a custom tree evaluator on Posit Cloud.",
+   "Smoothness: a ReLU network is continuous in position and azimuth, so the predicted skyline has no steps; tree ensembles are piecewise constant and produce small jumps."
+  ],
+  "comparison": {
+   "linear_ridge_mae": 1.084,
+   "random_forest_fold0_mae": 0.913,
+   "random_forest_size_mb": 391.3,
+   "gbm_fold0_mae": 0.921,
+   "gbm_size_mb": 2.22,
+   "gbm_trees": 400,
+   "gbm_leaves_total": 38000,
+   "mlp_json_kb": 67.7,
+   "mlp_fold0_mae": 0.914,
+   "note": "random forest, boosting and network: fold 0 of the 5-fold spatial CV; linear: all 5 folds",
+   "predict_ms_360az": {
+    "gbm": 5.75,
+    "nn": 0.26
+   },
+   "jumpiness_vs_exact_pct": {
+    "rf": 30.3,
+    "gbm": 9.6,
+    "nn": -4.9
+   }
+  }
+ }
+}

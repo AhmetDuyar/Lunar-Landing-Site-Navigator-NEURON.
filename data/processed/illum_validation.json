@@ -1,0 +1,30 @@
+{
+  "method": "Mazarico 2011 average Sun visibility (120 m/px, 18.6 yr, surface level) sampled bilinearly at the published point and as maximum on a 40 m lattice within 1 km.",
+  "notes": "Literature values use other DEMs (Kaguya LALT, LOLA 20 m), epochs, heights and definitions; differences of several percentage points are expected. The 1 km maximum accounts for coordinate rounding and the coarser 120 m grid.",
+  "rows": [
+    {
+      "id": "CR",
+      "name": "Connecting Ridge",
+      "literature_pct": 85.7,
+      "literature_source": "koebel2012",
+      "literature_definition": "Integral solar illumination, Kaguya LALT DEM, 2016 epoch",
+      "mazarico_point_pct": 70.9,
+      "mazarico_max_1km_pct": 83.4,
+      "delta_point_pp": -14.8,
+      "delta_max_1km_pp": -2.3,
+      "agrees_within_10pp_1km": true
+    },
+    {
+      "id": "HW",
+      "name": "Haworth",
+      "literature_pct": 70.32,
+      "literature_source": "ices2024",
+      "literature_definition": "Sun visibility fraction reported for this point",
+      "mazarico_point_pct": 41.4,
+      "mazarico_max_1km_pct": 50.0,
+      "delta_point_pp": -28.9,
+      "delta_max_1km_pp": -20.3,
+      "agrees_within_10pp_1km": false
+    }
+  ]
+}
